@@ -1,0 +1,9 @@
+Note: When dividing two integers in Java, the result will also be an integer. For example, 10 / 3 gives 3. If you want a decimal result, use double values, like 10.0 / 3.
+Example
+int a = 10;
+int b = 3;
+System.out.println(a / b);   // Integer division, result is 3
+
+double c = 10.0d;
+double d = 3.0d;
+System.out.println(c / d);   // Decimal division, result is 3.333...
